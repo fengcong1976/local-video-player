@@ -2,7 +2,7 @@
 ; 版本必须与 app/version.py 一致
 
 #define MyAppName "本地视频播放器"
-#define MyAppVersion "1.4.2"
+#define MyAppVersion "1.4.3"
 #define MyAppPublisher "深圳市创炫互动网络科技有限公司"
 #define MyAppURL "https://www.mrheedu.com"
 #define MyAppExeName "本地视频播放器.exe"

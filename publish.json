@@ -2,7 +2,7 @@
   "app": {
     "slug": "local-video-player",
     "name": "本地视频播放器",
-    "description": "本地视频播放器是一款完全离线的 Windows 视频播放工具，内置 VLC 播放内核，无需另外安装 VLC 即可播放 MP4、MKV、AVI、MOV、WMV、FLV、WebM、RMVB、TS、VOB 等常见与冷门格式。支持自动加载同名字幕、内嵌字幕轨道切换与手动加载外部字幕；同一个字幕文件里含多种语言时，会自动按文字体系拆分成多条轨道，可随时切换只显示其中一种。可把视频文件或整个文件夹拖入窗口，文件夹递归扫描且不卡界面。提供播放列表、进度拖动、音量与静音、0.5×–2× 倍速、循环播放、沉浸式全屏和常用快捷键，适合日常观影与本地视频整理。",
+    "description": "本地视频播放器是一款完全离线的 Windows 视频播放工具，内置 VLC 播放内核，无需另外安装 VLC 即可播放 MP4、MKV、AVI、MOV、WMV、FLV、WebM、RMVB、TS、VOB 等常见与冷门格式。支持自动加载同名字幕、内嵌字幕轨道切换与手动加载外部字幕；同一个字幕文件里含多种语言时，会自动按文字体系拆分成多条轨道，可随时切换只显示其中一种。可把视频文件或整个文件夹拖入窗口，文件夹递归扫描且不卡界面。提供播放列表、进度拖动、音量与静音、0.5×–2× 倍速、循环播放、沉浸式全屏和常用快捷键，适合日常观影与本地视频整理。 本应用已开源：https://gitee.com/FC1976/local-video-player（GPL-3.0）。",
     "category": "image",
     "platform": "windows",
     "store_id": "9NX01GC53WFQ",
@@ -43,13 +43,15 @@
       "全屏时自动隐藏菜单栏、控制栏和播放列表，画面铺满屏幕",
       "空格、方向键、N/P、F 等常用快捷键",
       "完全本地运行，不联网、无广告"
-    ]
+    ],
+    "source_url": "https://gitee.com/FC1976/local-video-player",
+    "license": "GPL-3.0"
   },
   "version": {
-    "version_number": "1.4.2",
+    "version_number": "1.4.3",
     "min_os_version": "Windows 10",
-    "release_notes": "启动速度优化：先显示主窗口，VLC 播放内核改为窗口出现后再初始化；随包附带插件缓存，冷启动不再逐个扫描插件，首次打开明显更快。",
-    "installer": "installer_output/本地视频播放器-Setup-1.4.2.exe"
+    "release_notes": "1.4.2 → 1.4.3：更新第三方组件许可声明与开源地址；修复若干已知问题。",
+    "installer": "installer_output/本地视频播放器-Setup-1.4.3.exe"
   },
   "guides": [
     "publish_guides/01-安装与首次使用.md",
