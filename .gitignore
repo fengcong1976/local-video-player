@@ -1,0 +1,23 @@
+# --- 开源发布忽略规则 ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+venv/
+.venv/
+build/
+dist/
+msix/
+installer_output/
+verification/
+.screenshots/
+.workbuddy/
+.trae/
+.cache/
+.diag/
+*.log
+*.tmp
+.DS_Store
+vendor/
+vlc-help.txt
