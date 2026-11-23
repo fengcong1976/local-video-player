@@ -1,5 +1,6 @@
 # 本地视频播放器
 
+> 免费下载与图文教程：<https://www.mrheedu.com/apps/local-video-player>　·　更多免费软件：[www.mrheedu.com](https://www.mrheedu.com)
 一个基于 **PySide6 + libvlc** 的本地视频播放器，开箱即用，内置 VLC 播放内核，**无需在系统中安装 VLC** 即可播放几乎所有格式的视频和字幕。
 
 ## 功能
